@@ -10,7 +10,7 @@ std::string convertirAletras(int numero) {
         "", "diez", "veinte", "treinta", "cuarenta", "cincuenta", "sesenta", "setenta", "ochenta", "noventa"
     };
     const std::string decenasCompuestas[] = {
-        "diez", "once", "doce", "trece", "catorce", "quince", "dieciséis", "diecisiete", "dieciocho", "diecinueve"
+        "diez", "once", "doce", "trece", "catorce", "quince", "diecisÃ©is", "diecisiete", "dieciocho", "diecinueve"
     };
     const std::string centenas[] = {
         "", "cien", "doscientos", "trescientos", "cuatrocientos", "quinientos", "seiscientos", "setecientos", "ochocientos", "novecientos"
@@ -77,6 +77,6 @@ int main() {
         std::cout << "El numero " << numero << " en letras es: " << resultado << std::endl;
     }
 
-    return 0;
+ system("pause");
 }
 
