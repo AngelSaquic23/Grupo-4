@@ -14,6 +14,6 @@ int main() {
         std::cout << numero << " x " << i << " = " << numero * i << std::endl;
     }
 
-    return 0;
+system("pause");
 }
 
