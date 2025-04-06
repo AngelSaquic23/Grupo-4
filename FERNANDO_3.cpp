@@ -13,7 +13,7 @@ int main() {
     cout << "4. Pulgadas a Metros"<<endl;
     cout << "5. Libras a Kilogramos"<<endl;
     cout << "6. Kilogramos a Libras"<<endl;
-    cout << "Opción: "<<endl;
+    cout << "OpciÃ³n: "<<endl;
     cin >> opcion;
 
     switch (opcion) {
@@ -27,7 +27,7 @@ int main() {
             cout << "Ingrese millas: "<<endl;
             cin >> valor;
             resultado = valor / 0.621371;
-            cout << valor << " millas = " << resultado << " kilómetros"<<endl;
+            cout << valor << " millas = " << resultado << " kilÃ³metros"<<endl;
             break;
         case 3:
             cout << "Ingrese metros: "<<endl;
@@ -54,9 +54,9 @@ int main() {
             cout << valor << " kilogramos = " << resultado << " libras"<<endl;
             break;
         default:
-            cout << "Opción invalida:"<<endl;
+            cout << "OpciÃ³n invalida:"<<endl;
             break;
     }
 
-    return 0;
+    system("pause");
 }
