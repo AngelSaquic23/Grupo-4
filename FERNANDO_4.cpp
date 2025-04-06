@@ -18,5 +18,5 @@ int main() {
         cout << "\"" << entrada << "\" no es un palindromo." << endl;
     }
 
-    return 0;
+    system("pause");
 }
