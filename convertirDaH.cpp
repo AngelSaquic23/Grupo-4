@@ -39,5 +39,5 @@ int main() {
 
     convertirADecimalAHexadecimal(numeroDecimal); // Llamar a la funcion de conversion
 
-    return 0;
+     system("pause");
 }
