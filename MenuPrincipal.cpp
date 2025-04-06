@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstdlib>
-
 using namespace std;
 
 void menuNoel();
@@ -57,7 +56,7 @@ void menuNoel() {
         switch(op) {
             case 1: system("start ARABIGO_A_ROMANO_NOEL.exe"); break;
             case 2: system("start NUMEROS_A_LETRAS_CON_DECIMALES_NOEL.exe"); break;
-            case 3: system("start NUMEROS A LETRAS NOEL.exe"); break;
+            case 3: system("start NUMEROS_A_LETRAS_NOEL.exe"); break;
             case 4: system("start UNA_TABLA_DE_MULTIPLICAR_NOEL.exe"); break;
             case 0: break;
             default: cout << "Opcion invalida.\n"; system("pause"); break;
@@ -81,7 +80,7 @@ void menuLudwin() {
 
         switch(op) {
             case 1: system("start FigurasBasicas.exe"); break;
-            case 2: system("start PuntoPantalla.cpp"); break;
+            case 2: system("start PuntoPantalla.exe"); break;
             case 3: system("start Cajero_automatico.exe"); break;
             case 4: system("start Hipotenusa.exe"); break;
             case 0: break;
@@ -147,7 +146,7 @@ void menuAngel() {
         system("cls");
         cout << "--- Programas de Angel Saquic ---\n";
         cout << "1. Convertir Decimales a Binarios\n";
-        cout << "2. Convertir Decimaless a Hexadecimales\n";
+        cout << "2. Convertir Decimales a Hexadecimales\n";
         cout << "3. Tablas de Multiplicar\n";
         cout << "4. Grafica de Multiplicacion\n";
         cout << "0. Regresar\n";
