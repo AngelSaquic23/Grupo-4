@@ -57,5 +57,5 @@ int main() {
 
     mostrarMultiplicacion(num1, num2);
 
-    return 0;
+     system("pause");
 }

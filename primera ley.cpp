@@ -11,8 +11,8 @@ int main() {
     if (fuerza == 0)
         cout << "El objeto permanece en reposo o en movimiento uniforme." << endl;
     else
-        cout << "El objeto cambiará su estado de movimiento." << endl;
+        cout << "El objeto cambiarÃ¡ su estado de movimiento." << endl;
 
-    return 0;
+     system("pause");
 }
 

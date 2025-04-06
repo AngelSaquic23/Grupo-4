@@ -35,5 +35,5 @@ int main() {
 
     convertirDaB(numeroDecimal); // Llamar a la funcion de conversion
 
-    return 0;
+     system("pause");
 }

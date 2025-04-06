@@ -4,13 +4,13 @@ using namespace std;
 int main() {
     float fuerza;
 
-    cout << "Tercera Ley de Newton (Acci髇 y Reacci髇)" << endl;
-    cout << "Ingrese la fuerza de acci髇 aplicada (N): ";
+    cout << "Tercera Ley de Newton (Acci贸n y Reacci贸n)" << endl;
+    cout << "Ingrese la fuerza de acci贸n aplicada (N): ";
     cin >> fuerza;
 
-    cout << "Fuerza de acci髇: " << fuerza << " N" << endl;
-    cout << "Fuerza de reacci髇 (opuesta): " << -fuerza << " N" << endl;
+    cout << "Fuerza de acci贸n: " << fuerza << " N" << endl;
+    cout << "Fuerza de reacci贸n (opuesta): " << -fuerza << " N" << endl;
 
-    return 0;
+     system("pause");
 }
 
