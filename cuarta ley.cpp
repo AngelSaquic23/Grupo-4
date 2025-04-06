@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-    const float g = 9.81; // aceleración por gravedad en la Tierra (m/s²)
+    const float g = 9.81; // aceleraciÃ³n por gravedad en la Tierra (m/sÂ²)
     float masa, peso;
 
-    cout << "Cálculo del peso usando F = m * g" << endl;
+    cout << "CÃ¡lculo del peso usando F = m * g" << endl;
     cout << "Ingrese la masa del objeto (kg): ";
     cin >> masa;
 
@@ -13,6 +13,6 @@ int main() {
 
     cout << "El peso del objeto en la Tierra es: " << peso << " N" << endl;
 
-    return 0;
+     system("pause");
 }
 
