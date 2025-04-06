@@ -4,11 +4,11 @@
 std::string convertirARomano(int numero) {
     std::string romano = "";
 
-    // Definición de valores romanos
+    // DefiniciÃ³n de valores romanos
     const int valores[] = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
     const std::string simbolos[] = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 
-    // Conversión
+    // ConversiÃ³n
     for (int i = 0; i < 13; i++) {
         while (numero >= valores[i]) {
             romano += simbolos[i];
@@ -25,12 +25,13 @@ int main() {
     std::cin >> numero;
 
     if (numero < 1 || numero > 1000) {
-        std::cout << "Por favor, ingrese un número dentro del rango permitido." << std::endl;
+        std::cout << "Por favor, ingrese un nÃºmero dentro del rango permitido." << std::endl;
     } else {
         std::string resultado = convertirARomano(numero);
-        std::cout << "El número " << numero << " en romano es: " << resultado << std::endl;
+        std::cout << "El nÃºmero " << numero << " en romano es: " << resultado << std::endl;
     }
 
-    return 0;
+    system("pause");
+    
 }
 
